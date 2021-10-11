@@ -1,0 +1,15 @@
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Quete_JSON
+{
+    class BaseMeteo
+    {
+        [JsonProperty("base")]
+        public String _base { get; set; }
+    }
+}
